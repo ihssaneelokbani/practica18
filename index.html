@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<form action="http://jorgesanchez.net/servicios/ver-datos.php" method="post">
+    <table>
+        <tr>
+            <th colspan="4">
+                <h1>Formulario de Alta</h1>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <label for="usuario">Usuario</label>
+          
+            </td>
+            <td>
+                <input type="text" id="usuario">
+            </td>
+        <td rowspan="7">
+            <img src="imagen/mundo.jpg" alt="mundo">
+        </td>
+            <tr>
+        <td>
+            <label for="contraseña">Contraseña</label>
+        </td>
+        <td>
+            <input type="password" id="contraseña">
+        </td>
+    </tr>
+        <tr>
+            <td>
+            <label for="confirme"> Confirme la contraseña</label>
+            </td>
+            <td>
+                <input type="password" id="confirme">
+            </td>
+        </tr>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label for="email">Email</label>
+
+            </td>
+            <td>
+                <input type="email" id="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="telefono">telefono</label>
+
+            </td>
+            <td>
+                <input type="text" id="telefono">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="fecha_nacimiento">fecha de nacimiento</label>
+
+            </td>
+            <td>
+                <input type="date" id="fecha_nacimiento" placeholder="dd/mm/aaaa">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <fieldset>
+                    <legend>
+                        Intereses
+                    </legend>
+                          <table >
+                              <tr>
+                                  <td>
+
+
+                                      <label for="deportes">deportes</label>
+                                      <input type="checkbox" id="deportes">
+
+                                  </td>
+                                  <td>
+
+                                      <label for="cine">Cine</label>
+                                      <input type="checkbox" id="cine">
+                                  </td>
+                                  <td>
+
+                                      <label for="teatro">Teatro</label>
+                                      <input type="checkbox" id="teatro">
+
+                                  </td>
+                                  <tr>
+                              <td>
+
+                                  <label for="Musica">Musica</label>
+                                  <input type="checkbox" id="Musica">
+
+                              </td>
+                              <td>
+
+                                  <label for="Viajes">Viajes</label>
+                                  <input type="checkbox" id="Viajes">
+
+                              </td>
+                              <td>
+
+                              <label for="Otras">Otras</label>
+                                  <input type="checkbox" id="Otras">
+                              </td>
+                          </tr>
+                              </tr>
+                          </table>
+                </fieldset>
+            </td>
+        </tr>
+
+<tr>
+    <td colspan="2">
+        Sexo:
+        <label for="Hombre">Hombre</label>
+        <input type="radio" id="Hombre" name="hombre">
+        <label for="Mujer">Mujer</label>
+        <input type="radio" id="Mujer" name="Mujer">
+    </td>
+<td>
+    <label>¿Comó consiste a MunudOcio.com? </label>
+    <select name=”amigos” id=”amigos”>
+        <optgroup label=Recomendacion>
+            <option value=”S”>Amigos</option>
+
+        <option value=”fa”>Familiares</option>
+        <option value=”o”>otros</option>
+        </optgroup>
+        <optgroup label="Medios">
+        <option value=”i”>Internet</option>
+        <option value=”t”>TV</option>
+        <option value=”p”>Prensa</option>
+        <option value=”so”>Soria</option>
+        <option value=”ra”>Radio</option>
+        <option value=”va”>Valladolid</option>
+        <option value=”o”>Otros</option>
+    </optgroup></select>
+
+</td>
+</tr>
+
+        <tr>
+            <td colspan="3">
+            <textarea rows=“3” cols=“3”name=“..” id=“..”  >
+
+
+
+
+
+
+              </textarea>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="4">
+                <button>Enviar</button>
+            </td>
+        </tr>
+
+
+
+    </table>
+</form>
+<h2>Ir a otras Zonas de MundoOcio.com </h2>
+
+<map name="mapa1">
+    <area shape="rect" coords="0,0,150,148" href="enlaces/index2.html" alt="mundo">
+    <area shape="rect" coords="151,0,299,150" href="enlaces/index3.html" alt="mundo">
+    <area shape="rect" coords="300,0,451,149" href="enlaces/index4.html" alt="mundo">
+    <area shape="rect" coords="452,0,600,149" href="enlaces/index5.html" alt="mundo">
+
+</map>
+<img src="imagen/mundo2.jpg" alt="mundo2" usemap="#mapa1">
+<p>
+    &nbsp;&nbsp;<a href="enlaces/index2.html"> Europa occidental</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="enlaces/index3.html">Europa delNorte</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="enlaces/index4.html">Mediteranio oriental</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="enlaces/index5.html">Mar del japon</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+</body>
+</html>
